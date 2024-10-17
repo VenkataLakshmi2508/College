@@ -1,0 +1,44 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+  border-radius: 8%;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+  border-radius: 8%;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+  border-radius: 8%;
+ 
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+  border-radius: 8%;
+ 
+}
+.card{
+  background-color: white;
+  border-radius: 8%;
+  width: 300px;
+  height: 250px;
+}
+.emojis{
+   float:right;
+   margin: 10px;
+}
+.avatar{
+  width: 80%;
+  height: 90%;
+}
+.common{
+  margin: 20px;
+}
+@media(maxwidth :570px){
+  .avatar{
+    width: 50%;
+    height: 60%;
+  }
+}

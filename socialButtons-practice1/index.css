@@ -1,0 +1,37 @@
+.social{
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCLwpRqQKduUvBY_TBQ_rPT3ONTE7i6wTjA&s");
+    ;
+    min-height: 100vh;
+     background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn1{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: yellow;
+    border: none;
+}
+
+.btn2{
+     width: 90px;
+     height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.btn3{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(0, 26, 255);
+    border:none
+}

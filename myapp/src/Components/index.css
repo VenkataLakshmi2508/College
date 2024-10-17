@@ -1,0 +1,39 @@
+
+.main{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ37NtUMPCs3Rd_qanO6z51vA6Cr3iOFNbeAUF7pIoa42PCVZlywd7wkfJ19ImuRu5bPTw&usqp=CAU");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btns{
+    border-radius: 9px ;
+    background-color: rgb(0, 26, 255);
+    color:white;
+    border-color: white;
+    height: 40px;
+    width: 150px;
+}
+.hh{
+    text-align: center;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pp{
+    color: green ;
+    font-size: 60px;
+}
+@media (max-width:567px){
+    .btn{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+}

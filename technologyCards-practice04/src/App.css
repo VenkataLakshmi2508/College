@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(212, 211, 209);
+}
+.cards-list{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ gap: 150px;
+ margin-top: 10%;
+}
+.mm
+{
+  margin: 150px;
+}
+.hh{
+  text-align: center;
+}
+@media(max-width: 570px)
+{
+  .mm{
+    margin: 20px;
+  }
+  .cards-list{
+    margin-top: 0px;
+    justify-content: center;
+    gap:20px;
+  }
+}
+@media(max-width:950px){
+  .cards-list{
+    justify-content: center;
+    gap:30px;
+  }
+}
